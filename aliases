@@ -19,3 +19,18 @@ alias path='echo $PATH | tr -s ":" "\n"'
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local
 fi
+
+# Git
+alias gs="git status"
+alias gbd="git branch -D"
+alias gfr="git fetch origin main && git rebase origin/main"
+alias gfr-master="git fetch origin master && git rebase origin/master"
+alias gma="git commit --amend --no-edit"
+alias go="git checkout"
+alias gb="git branch"
+alias gd="git diff"
+
+# Dev
+alias ds="dev style --include-branch-commits"
+
+

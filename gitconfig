@@ -28,3 +28,8 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[include]
+  path = /Users/toneymathews/.config/dev/gitconfig
+[user]
+  email = toney.mathews@shopify.com
+
